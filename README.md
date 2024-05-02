@@ -6,3 +6,4 @@ Funcionalidades:
 4.Autenticación: Los usuarios pueden autenticarse proporcionando su nombre de usuario y contraseña. Si las credenciales son válidas, se genera un token JWT que se devuelve al cliente para su uso en futuras solicitudes.
 5.Protección de rutas: Se implementa un middleware que verifica la validez del token JWT en las rutas que requieren autenticación. Si el token es válido, se permite el acceso; de lo contrario, se devuelve un error de autorización.
 6.Renovación de tokens: Se proporciona un mecanismo para que los usuarios actualicen su token JWT antes de que expire.
+
